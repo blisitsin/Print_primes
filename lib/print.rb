@@ -13,7 +13,7 @@ class Print
   def print
     puts "\t#{@primes.join("\t")}"
     @matrix.to_a.each_with_index do |row, key|
-    puts "#{@primes[key]}\t" + "#{row.join("\t")}"
+      puts "#{@primes[key]}\t" + "#{row.join("\t")}"
     end
   end
 end

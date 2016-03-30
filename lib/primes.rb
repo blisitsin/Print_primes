@@ -1,5 +1,5 @@
 class Generator
-  attr_accessor :primes
+  attr_accessor :primes, :matrix
 
   def initialize(options = {})
     @count = options[:count]
@@ -16,6 +16,6 @@ class Generator
   end
 
   def is_prime?(number)
-    (1..number).select{ |y| number % y == 0 }.size == 2
+    (1..number).select { |y| number % y == 0 }.size == 2
   end
 end

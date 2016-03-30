@@ -1,6 +1,6 @@
 # Content:
 
-This program prints out a multiplication table of the first 10 prime number.
+This program prints out a multiplication table of the first 'N' prime number.
 
 Run command:
 
